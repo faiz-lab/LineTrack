@@ -1,0 +1,27 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# 环境文件
+.env
+.venv/
+*.log
+
+# Jupyter检查点
+.ipynb_checkpoints/
+
+# 数据相关（避免上传体积大或隐私内容）
+data/raw_videos/
+data/processed_features/
+results/
+models/
+
+# OS系统垃圾
+.DS_Store
+Thumbs.db
+
+# VSCode/IDE配置
+.vscode/
+.idea/
